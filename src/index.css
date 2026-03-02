@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 140 20% 10%;
+
+    --card: 80 20% 97%;
+    --card-foreground: 140 20% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 140 20% 10%;
+
+    --primary: 122 73% 24%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 122 40% 78%;
+    --secondary-foreground: 122 73% 15%;
+
+    --muted: 80 20% 95%;
+    --muted-foreground: 140 10% 40%;
+
+    --accent: 35 40% 92%;
+    --accent-foreground: 35 50% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 122 20% 88%;
+    --input: 122 20% 88%;
+    --ring: 122 73% 24%;
+
+    --radius: 0.75rem;
+
+    --sage: 122 40% 78%;
+    --sage-foreground: 122 73% 15%;
+    --beige: 35 40% 92%;
+    --beige-foreground: 35 50% 25%;
+    --deep-green: 122 73% 24%;
+    --forest: 122 60% 12%;
+    --forest-foreground: 80 20% 95%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 140 20% 5%;
+    --foreground: 80 20% 95%;
+    --card: 140 20% 8%;
+    --card-foreground: 80 20% 95%;
+    --popover: 140 20% 8%;
+    --popover-foreground: 80 20% 95%;
+    --primary: 122 50% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 122 30% 20%;
+    --secondary-foreground: 122 40% 78%;
+    --muted: 140 15% 15%;
+    --muted-foreground: 140 10% 60%;
+    --accent: 35 20% 15%;
+    --accent-foreground: 35 40% 80%;
+    --border: 140 15% 20%;
+    --input: 140 15% 20%;
+    --ring: 122 50% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+}
