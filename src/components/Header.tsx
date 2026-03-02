@@ -62,13 +62,13 @@ const Header = () => {
 
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="#free-trial"
+              href="https://www.arogyadrishti.co.in/"
               className="bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:opacity-90 transition-opacity"
             >
               Start Free Trial
             </a>
             <a
-              href="#"
+              href="https://app.wellnessz.in/public/book-appointment/6894fabee26989ec71e4f5d5"
               className="border border-primary text-primary px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary hover:text-primary-foreground transition-colors"
             >
               Book Appointment
