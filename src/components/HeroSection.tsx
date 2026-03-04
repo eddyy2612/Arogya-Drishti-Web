@@ -25,13 +25,13 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
           className="text-primary-foreground/90 font-heading text-lg md:text-xl tracking-widest uppercase mb-4"
         >
-          Welcome to Arogya Drishti
+          Welcome to Trinity Nourishment
         </motion.p>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.15 }}
+          transition={{ duration: 0.7, delay: 0.20 }}
           className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground leading-tight"
         >
           Your Ultimate Destination for Health, Weight Loss & Wellness Support
@@ -40,7 +40,7 @@ const HeroSection = () => {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-6 text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto"
         >
           Personalized Nutrition & Lifestyle Coaching That Actually Works.
@@ -49,7 +49,7 @@ const HeroSection = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.45 }}
+          transition={{ duration: 0.6, delay: 0.60 }}
           className="mt-10 flex flex-wrap justify-center gap-4"
         >
           <a

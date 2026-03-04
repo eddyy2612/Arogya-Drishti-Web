@@ -30,7 +30,7 @@ const Header = () => {
             <Phone size={12} /> +91 98765 43210
           </a>
           <a href="mailto:hello@arogyadadrishti.com" className="flex items-center gap-1.5 text-forest-foreground/80 hover:text-forest-foreground transition-colors">
-            <Mail size={12} /> hello@arogyadadrishti.com
+            <Mail size={12} /> Trinitynourishment@gmail.com
           </a>
         </div>
       </div>
@@ -43,9 +43,16 @@ const Header = () => {
         }`}
       >
         <div className="container mx-auto flex items-center justify-between py-3 px-4 lg:px-8">
-          <a href="#home" className="font-heading text-2xl font-bold text-primary">
-            Arogya Drishti
-          </a>
+          <div className="flex items-center gap-2">
+            <img 
+              src="/src/assets/trinity.png" 
+              alt="Trinity Nourishment Logo"
+              className="h-8 w-8"
+            />
+            <a href="#home" className="font-heading text-2xl font-bold text-primary">
+              Trinity Nourishment
+            </a>
+          </div>
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-6">

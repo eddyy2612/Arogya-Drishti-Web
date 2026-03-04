@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid md:grid-cols-3 gap-10">
           <div>
-            <h3 className="font-heading text-2xl font-bold mb-3">Arogya Drishti</h3>
+            <h3 className="font-heading text-2xl font-bold mb-3">Trinity Nourishment</h3>
             <p className="text-forest-foreground/70 text-sm leading-relaxed">
               Your one-stop solution for weight management, health, and wellness. 
               Sustainable lifestyle transformation through personalized nutrition coaching.
@@ -39,7 +39,7 @@ const Footer = () => {
             <h4 className="font-semibold text-base mb-3">Get In Touch</h4>
             <div className="space-y-2 text-sm">
               <a href="mailto:hello@arogyadadrishti.com" className="flex items-center gap-2 text-forest-foreground/70 hover:text-forest-foreground transition-colors">
-                <Mail size={15} /> hello@arogyadadrishti.com
+                <Mail size={15} /> Trinitynourishment@gmail.com
               </a>
               <a href="tel:+919876543210" className="flex items-center gap-2 text-forest-foreground/70 hover:text-forest-foreground transition-colors">
                 <Phone size={15} /> +91 98765 43210
@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 pt-6 border-t border-forest-foreground/10 text-center text-forest-foreground/50 text-xs">
-          © {new Date().getFullYear()} Arogya Drishti. All rights reserved.
+          © {new Date().getFullYear()} Trinity Nourishment. All rights reserved.
         </div>
       </div>
     </footer>
